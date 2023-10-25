@@ -1,0 +1,30 @@
+nav{
+    background-color: #FFF5E0;
+}
+
+body{
+    background-color: #F1EFEF ;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.cartimg{
+    height: 200px !important;
+    padding: 30px;
+   
+}
+
+.minusbtn{
+    display: block !important;
+}
+
+#remove{
+    margin-left: 0px;
+    margin-top: 5px;
+}
+#buy{
+    margin-top: 5px;
+    margin-left: 5px;
+}

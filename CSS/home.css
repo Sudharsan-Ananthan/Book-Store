@@ -1,0 +1,43 @@
+nav{
+    background-color: #FFF5E0;
+}
+
+body{
+    background-color: #F1EFEF ;
+}
+
+.mycarousel{
+    margin-top: 20px;
+}
+
+.homecardimg{
+    height: 200px;
+    width: 50%;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+.homecards{
+    margin-top: 30px;
+    
+}
+.row{
+    margin-bottom: 30px;
+    margin-left: 25px;
+    
+}
+
+.btn-primary {
+    background-color: #D5A021;
+    border-color: #D5A021;
+    outline-color: #D5A021;
+  }
+
+.heading{
+    margin: 40px;
+    font-size: larger;
+    text-align: center;
+    color: #D5A021;
+  }  
+
+  

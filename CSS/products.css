@@ -1,0 +1,8 @@
+.prodimg{
+ 
+  width: 100% !important;
+  height: 400px !important;
+  object-fit:fill;
+  padding: 50px;
+
+}
