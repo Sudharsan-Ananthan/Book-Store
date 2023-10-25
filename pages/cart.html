@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/css/cart.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <div class="container">
+        <a href="#" class="navbar-brand"> <img src="https://cdn2.iconfinder.com/data/icons/nuts-4/50/40-512.png" alt="" width="50px" height="60px" loading="lazy" class="d-inline-block align-center"> Book Store</a>
+
+       
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigatiosn">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link " href="home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="employee.html">Employee</a></li>
+                <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li>
+                <li class="nav-item"><a class="nav-link active"  href="cart.html">Cart</a></li>
+              </ul></div></div>
+  
+       
+        </div>
+
+
+      </div>
+
+    </nav>
+    <!-- navigation bar end -->
+
+    
+    <!-- cart -->
+    <div class="container">
+      <div class="card mb-3 border-0" style="max-width:100% ;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://i1.wp.com/ashishb.net/wp-content/uploads/2021/07/psychology-of-money.jpg?w=971&ssl=1" class="img-fluid rounded-start cartimg" alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">The Psychology of Money</h5>
+              <p class="card-text"><del >Rs.840</del></p> <p>Rs.699/-</p>
+              <div>
+              <button class="btn btn-sm btn-secondary">+</button> <input style="width: 5%;" type="text" value="2"> <button class="btn btn-sm btn-secondary  ">-</button>
+            </div>
+            <div class="cartbtn">
+              <button id="remove" class="btn btn-outline-warning ">Remove</button>
+              <button id="buy" class="btn btn-warning d-inline">Buy</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="card mb-3 border-0" style="max-width:100% ;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://th.bing.com/th/id/R.7ffe158b413eba65bce661c12ecb004e?rik=EMY44h4ITUigBA&riu=http%3a%2f%2fmediad.publicbroadcasting.net%2fp%2fwvxu%2ffiles%2fstyles%2fx_large%2fpublic%2f201804%2fmoney_or_your_life_cover_amazon.jpg&ehk=XSrwF7UWW1FyQT4T7gVnmZ9BEdzA0U6VXqgLibBcgU0%3d&risl=&pid=ImgRaw&r=0" class="img-fluid rounded-start cartimg" alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">The Psychology of Money</h5>
+              <p class="card-text"><del >Rs.1100</del></p> <p>Rs.999/-</p>
+              <div>
+              <button class="btn btn-sm btn-secondary">+</button> <input style="width: 5%;" type="text" value="2"> <button class="btn btn-sm btn-secondary  ">-</button>
+            </div>
+            <div class="cartbtn">
+              <button id="remove" class="btn btn-outline-warning ">Remove</button>
+              <button id="buy" class="btn btn-warning d-inline">Buy</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card mb-3 border-0" style="max-width:100% ;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg" class="img-fluid rounded-start cartimg" alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">The Psychology of Money</h5>
+              <p class="card-text"><del >Rs.550</del></p> <p>Rs.433/-</p>
+              <div>
+              <button class="btn btn-sm btn-secondary">+</button> <input style="width: 5%;" type="text" value="1"> <button class="btn btn-sm btn-secondary  ">-</button>
+            </div>
+            <div class="cartbtn">
+              <button id="remove" class="btn btn-outline-warning ">Remove</button>
+              <button id="buy" class="btn btn-warning d-inline">Buy</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card mb-3 border-0" style="max-width:100% ;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <h3>Total price</h3>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Rs.3829/-</h5>
+            <div class="cartbtn">
+              <button id="remove" class="btn btn-danger ">Check Out</button>
+             
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end Cart -->
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
